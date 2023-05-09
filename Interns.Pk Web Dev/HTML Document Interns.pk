@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<htmla lang="eng">
+<head>
+<title> MY HTML DOCUMENT <title>
+<link rel="stylesheet" href="css/styel.css">
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is paragraph of text.</p>
+</body>
+</html>
+

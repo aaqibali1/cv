@@ -1,0 +1,418 @@
+<!-- <html>
+  <body>
+    <h1>Test0</h1>
+
+    <script language="javascript" type="text/javascript">
+      document.write("Hello World!");
+      console.log("Hello World!");
+    </script>
+
+    <h1>Test1</h1>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <script language="javascript" type="text/javascript">
+      (var1 = 10), (var2 = 20);
+    </script>
+
+    <script language="javascript" type="text/javascript">
+      var1 = 10;
+      var2 = 20;
+    </script>
+
+    <script language="javascript" type="text/javascript">
+    </script>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <script language="javascript" type="text/javascript">
+      document.write("Hello World!");
+    </script>
+    <noscript> Sorry...JavaScript is needed to go ahead. </noscript>
+  </body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      function sayHello() {
+        alert("Hello World");
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" onclick="sayHello()" value="Say Hello" />
+  </body>
+</html> -->
+
+<!-- <html>
+  <head> </head>
+  <body>
+    <script type="text/javascript">
+      document.write("Hello World");
+    </script>
+    <p>This is web page body</p>
+  </body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      function sayHello() {
+        alert("Hello World");
+      }
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      document.write("Hello World");
+    </script>
+    <input type="button" onclick="sayHello()" value="Say Hello" />
+  </body>
+</html> -->
+
+<!-- External js file: -->
+<!-- <html>
+  <head>
+    <script type="text/javascript" src="filename.js"></script>
+  </head>
+  <body>
+    <input type="button" onclick="sayHello()" value="Say Hello" />
+  </body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      var money, name;
+    </script>
+
+    <script type="text/javascript">
+      var name = "Ali";
+      console.log(name);
+      var money;
+      money = 2000.5;
+      console.log(money);
+      name = "zaki";
+      console.warn(name);
+    </script>
+    <style>
+      h1 {
+        background-color: violet;
+        font-size: 18px;
+        padding: 20px;
+        border: 2px dashed #ccc;
+      }
+
+      h1:hover {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is h1</h1>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body onload="checkscope();">
+    <script type="text/javascript">
+      var myVar = "global"; // Declare a global variable
+      console.log(myVar);
+
+      function checkscope() {
+        var myVar = "local"; // Declare a local variable
+        console.log(myVar);
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <script type="text/javascript">
+      var a = 33;
+      var b = 10;
+      var c = "Test";
+      var linebreak = "<br />";
+      document.write("a + b = ");
+      result = a + b;
+      document.write(result);
+      document.write(linebreak);
+      document.write("a - b = ");
+      result = a - b;
+      document.write(result);
+      document.write(linebreak);
+      document.write("a / b = ");
+      result = a / b;
+      document.write(result);
+      document.write(linebreak);
+      document.write("a % b = ");
+      result = a % b;
+      document.write(result);
+      document.write(linebreak);
+      document.write("a + b + c = ");
+      result = a + b + c;
+      document.write(result);
+      document.write(linebreak);
+      a = ++a;
+      document.write("++a = ");
+      result = ++a;
+      document.write(result);
+      document.write(linebreak);
+      b = --b;
+      document.write("--b = ");
+      result = --b;
+      document.write(result);
+      document.write(linebreak);
+      document.write(linebreak);
+      document.write(linebreak);
+      document.write(linebreak);
+      document.write(linebreak);
+      document.write("<h1>This is heading</h1>");
+    </script>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <script type="text/javascript">
+      var grade = "C";
+      document.write("Entering switch block<br />");
+      switch (grade) {
+        case "A":
+          document.write("Good job<br />");
+          break;
+        case "B":
+          document.write("Pretty good<br />");
+          break;
+        case "C":
+          document.write("Passed<br />");
+          break;
+        case "D":
+          document.write("Not so good<br />");
+          break;
+        case "F":
+          document.write("Failed<br />");
+          break;
+        default:
+          document.write("Unknown grade<br />");
+      }
+      document.write("Exiting switch block");
+    </script>
+    <p>Set the variable to different value and then try...</p>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <script type="text/javascript">
+      var count;
+      document.write("Starting Loop" + "<br />");
+
+      for (count = 0; count < 10; count++) {
+        document.write("Current Count : " + count);
+        document.write("<br />");
+      }
+
+      document.write("Loop stopped!");
+    </script>
+    <p>Set the variable to different value and then try...</p>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <script type="text/javascript">
+      var aProperty;
+      document.write("Navigator Object Properties<br /> ");
+      for (aProperty in navigator) {
+        document.write(aProperty);
+        document.write("<br />");
+      }
+      document.write("Exiting from the loop!");
+    </script>
+    <p>Set the variable to different object and then try...</p>
+  </body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      function concatenate(first, last) {
+        return first + last;
+      }
+
+      function secondFunction() {
+        var result = concatenate("John ", "Doe");
+        document.write(result);
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <input type="button" onclick="secondFunction()" value="Call Function" />
+    </form>
+  </body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      function over() {
+        document.write("Mouse Over");
+      }
+      function out() {
+        document.write("Mouse Out");
+      }
+    </script>
+  </head>
+  <body>
+    <div onmouseover="over()" onmouseout="out()">
+      <h2>This is inside the division</h2>
+    </div>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+
+    <script>
+      const x = (x, y) => {
+        return x * y;
+      };
+      document.getElementById("demo").innerHTML = x(5, 5);
+    </script>
+  </body>
+</html> -->
+
+<!-- ES6:: // ES5 -->
+
+<!-- <html>
+  <body>
+    <p id="demo"></p>
+
+    <script>
+      // ES5
+      // var x = function (x, y) {
+      //   return x * y;
+      // };
+      // ES6
+      const x = (x, y) => x * y;
+
+      document.getElementById("demo").innerHTML = x(5, 5);
+    </script>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <p id="demo"></p>
+
+    <script>
+      //   Spread operator:
+      const q1 = ["Jan", "Feb", "Mar"];
+      const q2 = ["Apr", "May", "Jun"];
+      const q3 = ["Jul", "Aug", "Sep"];
+      const q4 = ["Oct", "Nov", "May"];
+      const year = [...q1, ...q2, ...q3, ...q4];
+
+      document.getElementById("demo").innerHTML = year;
+
+      // For loop:
+      const cars = ["BMW", "Volvo", "Mini"];
+      let text = "";
+      for (let x of cars) {
+        text += x + " ";
+      }
+
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html> -->
+
+<!-- <html>
+  <body>
+    <p id="demo"></p>
+
+    <script>
+      // Map, filter, reduce:
+
+      const numbers = [1, 2, 3, 4];
+      const doubled = numbers.map((item) => item * 2);
+      console.log(doubled);
+
+      const numbers = [1, 2, 3, 4];
+      const evens = numbers.filter((item) => item % 2 === 0);
+      console.log(evens); // [2, 4]
+
+      const numbers = [1, 2, 3, 4];
+      const sum = numbers.reduce(function (result, item) {
+        console.log(result, "result");
+        console.log(item, "item");
+        return result + item;
+      }, 0);
+      console.log(sum);
+    </script>
+  </body>
+</html> -->
+
+<!-- Try Catch -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      function myFunc() {
+        var a = 100;
+        alert("Value of variable a is : " + a);
+      }
+    </script>
+  </head>
+  <body>
+    <form><input type="button" value="Click Me" onclick="myFunc();" /></form>
+  </body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      function myFunc() {
+        var a = 100;
+        try {
+          alert("Value of variable a is : " + a);
+        } catch (e) {
+          alert("Error: " + e.description);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form><input type="button" value="Click Me" onclick="myFunc();" /></form>
+  </body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <script type="text/javascript">
+      function myFunc() {
+        var a = 100;
+        try {
+          alert("Value of variable a is : " + ab);
+        } catch (e) {
+          alert("Error: " + e.description);
+        } finally {
+          alert("Finally block will always execute!");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form><input type="button" value="Click Me" onclick="myFunc();" /></form>
+  </body>
+</html> -->

@@ -1,0 +1,17 @@
+body {
+	background: lightyellow;
+	font: 18px Arial, sans-serf;
+}
+h1 {
+	color: orange;
+}
+
+/*---------------------------------------------*/
+
+<style>
+@import url("css/style.css");
+p {
+	color: blue;
+	font-size: 16px;
+}
+</style>
